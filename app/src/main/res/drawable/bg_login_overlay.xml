@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
     <!-- Your background image -->
-    <item android:drawable="@drawable/activityLoginPicture" />
+    <item android:drawable="@drawable/activity_login_picture" />
 
     <!-- Semi-transparent white overlay (adjust alpha '88' or 'AA' for more/less transparency) -->
     <item>
