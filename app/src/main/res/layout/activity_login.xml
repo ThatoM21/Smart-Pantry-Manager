@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="Smart Pantry Manager"
-        android:textColor="#2E7D32"
+        android:textColor="#1B5E20"
         android:textSize="28sp"
         android:textStyle="bold"/>
 
@@ -22,6 +22,8 @@
         android:layout_marginBottom="32dp"
         android:gravity="center"
         android:text="Cook with what you already have"
+        android:textColor="#212121"
+        android:textStyle="bold"
         android:textSize="16sp"/>
 
     <EditText
@@ -29,9 +31,12 @@
         android:layout_height="wrap_content"
         android:id="@+id/etUsername"
         android:hint="Username"
+        android:textColorHint="#757575"
+        android:textColor="#000000"
         android:inputType="text"
         android:minHeight="48dp"
-        android:padding="12dp"/>
+        android:padding="12dp"
+        android:background="#E6FFFFFF"/>
 
     <EditText
         android:layout_width="match_parent"
@@ -39,8 +44,12 @@
         android:id="@+id/etPassword"
         android:hint="Password"
         android:inputType="textPassword"
+        android:textColorHint="#757575"
+        android:textColor="#000000"
         android:minHeight="48dp"
-        android:padding="12dp"/>
+        android:padding="12dp"
+        android:background="#E6FFFFFF"
+        />
 
     <Button
         android:layout_width="match_parent"
